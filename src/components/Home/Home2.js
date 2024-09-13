@@ -11,19 +11,16 @@ function Home2() {
           <Col md={12} className="home-about-description" >
             
             <h1 style={{ fontSize: "2.6em" }}>
-              About <b className="blue">Me</b>
+              About <b className="blue">Us</b>
             </h1>
 
             <p className="home-about-body">
-              I'm Harshendra, a CSE graduate from Bharati Vidyapeeth's College of Engineering, New Delhi
-              <br />I am passionate about implementing solutions to real-world problems
-              <br />and possess technical expertise on <b className="blue">Data structures, algorithms, MERN stack</b> and various utility tools.
+             We are Software Developers with a passion for building and shipping products. 
+              <br />We specialize in <b className="blue">Web Development, Website design and shipping products.</b>
+              <br />
+              Look at our catalogue of work in the <a href="/project">projects</a> section.
               <br />
               <br />
-              <br />
-
-              I do however, tend to follow a bunch of sports like 
-              football, cricket, f1, basketball and tennis.
             </p>
 
           </Col>

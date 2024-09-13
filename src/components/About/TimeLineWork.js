@@ -15,6 +15,21 @@ const TimeLineWork = () => {
                 iconStyle={{ background: 'black', color: '#ce17d8' }}
                 icon={<MdWork />}
             >
+                <h3 className="vertical-timeline-element-title">Incedo</h3>
+                <h4 className="vertical-timeline-element-subtitle">Software Engineer</h4>
+                <p>
+                    Was tasekd with the job of transitioning existing <b className='blue'>EJS pages</b>
+                    to <b className='blue'>React based components</b>
+                </p>
+            </VerticalTimelineElement>
+            <VerticalTimelineElement
+                className="timeline-work"
+                contentStyle={{ backgroundColor: 'rgba(70, 2, 115,.2)', color: '#fff' }}
+                contentArrowStyle={{ borderRight: '12px solid  rgba(70, 2, 115,.2)'}}
+                date="Jun 2021 - Sep 2021"
+                iconStyle={{ background: 'black', color: '#ce17d8' }}
+                icon={<MdWork />}
+            >
                 <h3 className="vertical-timeline-element-title">Unolo</h3>
                 <h4 className="vertical-timeline-element-subtitle">Software Engineer Intern</h4>
                 <p>

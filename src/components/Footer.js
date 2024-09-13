@@ -13,16 +13,54 @@ const Footer = () => {
     <Container fluid className="footer">
       <Row>
         <Col md={4} className="home-about-social">
-          <h3>No &copy; issues :p </h3>
-          <p>Feel free to use this template!</p>
+          <h3>All rights reserved 2024</h3>
+          <p>Vinayak & Harshendra</p>
         </Col>
-        <Col md={4} className="home-about-social">
-          <h3>Made with ❤︎ </h3>
-          <p>By Harshendra Singh</p>
-        </Col>
+
+
         <Col md={4} >
           <h3 className="home-about-social">
-            Feel free to <span className="blue">connect </span>with me
+            Feel free to <span className="blue">connect </span>with us
+          </h3>
+          <ul className="home-about-social-links">
+            <li className="social-icons">
+              <a
+                href="https://github.com/vinayak141"
+                target="_blank"
+                rel="noreferrer"
+                className="icon-colour  home-social-icons"
+              >
+                <AiFillGithub />
+              </a>
+            </li>
+            
+            <li className="social-icons">
+              <a
+                href="https://www.linkedin.com/in/vinayak-sharma-3b40311b5/"
+                target="_blank"
+                rel="noreferrer"
+                className="icon-colour  home-social-icons"
+              >
+                <FaLinkedinIn />
+              </a>
+            </li>
+            <li className="social-icons">
+              <a
+                href="https://www.instagram.com/ponkynayak"
+                target="_blank"
+                rel="noreferrer"
+                className="icon-colour home-social-icons"
+              >
+                <AiFillInstagram />
+              </a>
+            </li>
+          </ul>
+        </Col>
+
+       
+        <Col md={4} >
+          <h3 className="home-about-social">
+            Feel free to <span className="blue">connect </span>with us
           </h3>
           <ul className="home-about-social-links">
             <li className="social-icons">

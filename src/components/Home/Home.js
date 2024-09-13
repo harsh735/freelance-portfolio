@@ -24,7 +24,7 @@ function Home() {
         <Particle />
         <Container className="home-content">
           <Row>
-              <Col md={7} className="home-header">
+              <Col md={10} className="home-header">
                   <h1 data-aos="fade-right" style={{ paddingBottom: 15 }} className="heading">
                     Hi There!{" "}
                     <span className="wave" role="img" aria-labelledby="wave">
@@ -33,8 +33,8 @@ function Home() {
                   </h1>
 
                   <h1 className="heading-name" data-aos="fade-right">
-                    I'm
-                    <strong className="main-name"> Harshendra Singh</strong>
+                    Get your business from 0 to 100 with
+                    <strong className="main-name"> interactive, user friendly websites</strong>
                   </h1>
                  
                 
@@ -45,7 +45,7 @@ function Home() {
               </Col>
             
         
-              <Col style={{ paddingBottom: 55 }}>
+              {/* <Col style={{ paddingBottom: 55 }}>
                 <div className="main-img-div"> 
                   <img
                     data-aos="fade-left"
@@ -58,7 +58,7 @@ function Home() {
                     className="main-img"
                   />
                 </div>
-              </Col>
+              </Col> */}
           </Row>
         </Container>
       </Container>

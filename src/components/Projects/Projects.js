@@ -7,6 +7,9 @@ import wiehack from "../../Assets/Projects/wiehack.png";
 import colour from "../../Assets/Projects/colour.png";
 import atlansql from "../../Assets/Projects/atlansql.png";
 import meme from "../../Assets/Projects/meme.png";
+import reversetree from "../../Assets/Projects/reversetree.png";
+import zoomclone from "../../Assets/Projects/zoom-clone.png";
+import saas from "../../Assets/Projects/saas.png";
 
 
 const Projects = () => {
@@ -19,6 +22,18 @@ const Projects = () => {
         </h3>
 
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+
+        <Col md={4} className="project-card" >
+            <ProjectCard
+              imgPath={reversetree}
+              isBlog={false}
+              title="ReverseTree"
+              description="An end to end website for a video production company. Developed the landing page as well as their custom blog"
+              demoLink="https://reversetreeproductions.com/"
+            />
+          </Col>
+
+
           <Col md={4} className="project-card" >
             <ProjectCard
               imgPath={chatarpatar}
@@ -43,12 +58,11 @@ const Projects = () => {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={colour}
+              imgPath={zoomclone}
               isBlog={false}
-              title="Guess-Colouro"
-              description="An interactive color-guessing game using vanilla JavaScript and CSS, showcasing proficiency in DOMmanipulation and event handling"
-              ghLink="https://github.com/harsh735/Colour-Game"
-              demoLink="https://colour-game-six.vercel.app/"              
+              title="Zoom-Clone"
+              description="A complete end to end Zoom clone that allows you to join and create meetings and send invites."
+              demoLink="https://flutter-zoom.vercel.app"              
             />
           </Col>
 
@@ -65,12 +79,11 @@ const Projects = () => {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={meme}
+              imgPath={saas}
               isBlog={false}
-              title="Meme Generator"
-              description="A simple react project which makes use of react hooks to add text to an image and allows the user to save the modified image/meme."
-              ghLink="https://github.com/harsh735/meme-generator"
-              demoLink="https://meme-generator-ten-fawn.vercel.app/"
+              title="Finance SaaS"
+              description="Wireframe of a finance/data analytics SaaS platform website developed using React and other libraries."
+              demoLink="https://finance-saas-template.netlify.app/"
             />
           </Col>
 
